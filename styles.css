@@ -1,0 +1,34 @@
+td {
+    text-align: center;
+    color: brown;
+}
+/* 
+body {
+    color: #02bb24;
+} */
+
+h3, span {
+    color: blue;
+}
+
+p {
+    color: orangered;
+}
+
+sup.sup_element {
+    color: grey;
+}
+
+
+/* .sup_element {
+    color: grey;
+} */
+
+
+footer p {      /* tylko te 'p' ktore sa potomkami 'footer' */
+    color: green;
+}
+
+h1 > p {        /* tylko dziecko bezposrednie*/
+    color: yellowgreen;
+}
