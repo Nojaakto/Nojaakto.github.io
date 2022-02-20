@@ -1,39 +1,32 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: large;
+    margin-left: 100px;
+    margin-top: 20px;
 }
+/* margin to odleglosc od calej strony, a padding od kontenera? */
 
-td {
+table {
     text-align: center;
-    color: brown;
-}
-/* 
-body {
-    color: #02bb24;
-} */
-
-h3, span {
-    color: blue;
+    line-height: 200%;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-p {
-    color: black;
+h3 {
+    color: #E87B50;
+    font-weight: bold;
+    font-size: 30px;    
 }
 
-sup.sup_element {
-    color: grey;
+div#main_content {
+    background-color: whitesmoke;
+    padding: 20px;
+    
 }
 
-
-/* .sup_element {
-    color: grey;
-} */
-
-
-footer p {      /* tylko te 'p' ktore sa potomkami 'footer' */
-    color: green;
-}
-
-h1 > p {        /* tylko dziecko bezposrednie*/
-    color: yellowgreen;
+div#main_content img {
+    size;
 }
